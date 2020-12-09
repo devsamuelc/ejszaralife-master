@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(129,129,201);
+    color: white;
+    overflow-x: hidden;
+}
+
+.watermark {
+    text-align: center;
+    font-size: 8px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+}
+
+.cover-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 2px solid white;
+}
+
+.btn-info {
+    background-color: rgb(93, 93, 148);
+    border: 1px solid white;
+}
+
+.btn-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: rgb(144, 144, 231);
+    border: 1px solid #f0f0f5;
+}
+
+.categoria {
+    text-align: center;
+}
+
+.categoria button {
+    margin: 20px;
+}
+
+#logo {
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin: auto 0;
+}
+
+.description {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description h1 {
+    font-weight: 500;
+}
+
+.description p {
+    font-weight: 300;
+}
+
+.description p:last-of-type {
+    font-size: 12px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-dark {
+    background-color: #6868a3 !important;
+}
+
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#carouselExampleFade {
+    height: 400px;
+    box-shadow: 2px 7px 20px#3d3d5f;
+}
+
+#carouselExampleFade img {
+    height: 400px;
+    object-fit: cover;
+    border: 2px solid #f0f0f5;
+    border-radius: 8px;
+}
